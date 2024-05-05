@@ -82,3 +82,22 @@ a {
     padding: 5px;
     font-size: 2em;
 }
+
+.sessao-explicacao-txt {
+    display: flex;
+    gap: 50px;
+}
+
+.sessao-explicacao-txt > div {
+    width: 500px;
+}
+
+.sessao-explicacao-txt > div > p{
+    line-height: 1.7em;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.sessao-explicacao-txt > div > h1{
+    font-size: 1.5em;
+}
