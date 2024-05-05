@@ -7,7 +7,6 @@
 
 body {
     height: 100vh;
-    width: 100vw;
 }
 
 .cabecalho {
@@ -62,4 +61,24 @@ a {
     text-align: center;
     line-height: 1.2em;
     font-weight: bold;
+}
+
+.sessao-explicacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+.sessao-explicacao-img > img {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.sessao-explicacao-img > h1 {
+    padding: 5px;
+    font-size: 2em;
 }
