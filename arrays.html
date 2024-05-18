@@ -19,18 +19,21 @@
         <h1>Filas</h1>
         <section class="inputs">
             <input type="number" id="inptNumFilas" class = 'inptNum'>
-            <button>Adicionar</button>
-            <button>Excluir</button>
+            <button onclick="enqueue()">Adicionar</button>
+            <button onclick="dequeue()">Excluir</button>
         </section>
         <section class="fila">
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="ret-fila">
+                <div class="quadr-fila">1</div>
+                <div class="quadr-fila"></div>
+                <div class="quadr-fila"></div>
+                <div class="quadr-fila"></div>
+                <div class="quadr-fila"></div>
             </div>
         </section>
     </main>
+    <script src="js/fila.js"></script>
+    <script src="js/pilha.js"></script>
+    <script src="js/listas-simples.js"></script>
 </body>
 </html>
