@@ -65,10 +65,37 @@ div.ret-fila {
     height: 100px;
 }
 
-div.quadr-fila, div.quadr-pilha {
+div.quadr-fila{
     width: 20%;
     border: 1px solid black;
     text-align: center;
     padding-top: 30px;
     font-size: 2em;
+}
+
+section.pilha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.ret-pilha {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    height: 400px;
+    margin-top: 20px;
+}
+
+div.quadr-pilha {
+
+    height: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+
 }
