@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../assets/background-img.jpeg");
     background-repeat: no-repeat;
@@ -8,6 +9,7 @@ body {
 
 header {
     background-color: white;
+    height: 30%;
 }
 
 main {
@@ -18,6 +20,7 @@ main {
     margin-top: 50px;
     border-radius: 6px;
     padding: 10px;
+    padding-left: 20px;
 }
 
 section.inputs {
@@ -25,7 +28,7 @@ section.inputs {
 }
 
 h1 {
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .inptNum {
@@ -48,24 +51,22 @@ button:hover {
     background-color: aqua;
 }
 
-section.fila {
+section.fila, section.lista {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
     margin-top: 20px;
-    margin-bottom: 200px;
 }
 
-div.ret-fila {
+div.ret-fila, div.ret-lista {
     display: flex;
     width: 90%;
     border: 1px solid black;
-    height: 100px;
+    height: 80px;
 }
 
-div.quadr-fila{
+div.quadr-fila, div.quadr-lista{
     width: 20%;
     border: 1px solid black;
     text-align: center;
