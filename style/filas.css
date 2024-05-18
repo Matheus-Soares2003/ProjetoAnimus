@@ -55,6 +55,7 @@ section.fila {
     width: 100%;
     height: 100px;
     margin-top: 20px;
+    margin-bottom: 200px;
 }
 
 div.ret-fila {
@@ -64,7 +65,7 @@ div.ret-fila {
     height: 100px;
 }
 
-div.quadr-fila {
+div.quadr-fila, div.quadr-pilha {
     width: 20%;
     border: 1px solid black;
     text-align: center;
