@@ -62,13 +62,13 @@ section.fila, section.lista {
 div.ret-fila, div.ret-lista {
     display: flex;
     width: 90%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     height: 80px;
 }
 
 div.quadr-fila, div.quadr-lista{
     width: 20%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     text-align: center;
     padding-top: 30px;
     font-size: 2em;
@@ -86,7 +86,7 @@ div.ret-pilha {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     height: 400px;
     margin-top: 20px;
 }
@@ -94,7 +94,7 @@ div.ret-pilha {
 div.quadr-pilha {
 
     height: 20%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     text-align: center;
     padding-top: 30px;
     font-size: 2em;
