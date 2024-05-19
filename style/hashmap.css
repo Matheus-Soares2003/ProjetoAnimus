@@ -1,0 +1,77 @@
+body {
+    background-image: url("../assets/background-img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+    height: 30%;
+}
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.hashmap-container {
+    background-color: white;
+    height: 100%;
+}
+
+.hashmap-form input {
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.hashmap-form button {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(132, 231, 231);
+}
+
+.hashmap-display {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.hashmap-entry {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.hashmap-key {
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: darkred;
+}

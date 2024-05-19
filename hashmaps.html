@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animus</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hashmap.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -15,7 +16,18 @@
         <a href="sobre.html" class='link-sobre'>Sobre</a>
     </header>
     <main>
-        
+        <div class="hashmap-container">
+            <h1>HashMap</h1>
+            <form class="hashmap-form" id="hashmap-form">
+                <input type="text" id="key" placeholder="Chave" required>
+                <input type="text" id="value" placeholder="Valor" required>
+                <button type="submit">Adicionar ao HashMap</button>
+            </form>
+            <div class="hashmap-display" id="hashmap-display">
+                <!-- Entradas do HashMap serão exibidas aqui -->
+            </div>
+        </div>
     </main>
+    <script src="js/hashmap.js"></script>
 </body>
 </html>
