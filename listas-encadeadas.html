@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animus</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/lista-encadeada.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -15,7 +16,14 @@
         <a href="sobre.html" class='link-sobre'>Sobre</a>
     </header>
     <main>
-        
+        <h1>Simulação de Lista Encadeada</h1>
+        <div class="controls">
+            <input type="text" id="nodeValue" placeholder="Valor do Nó">
+            <button onclick="addNode()">Adicionar Nó</button>
+            <button onclick="removeNode()">Remover Nó</button>
+        </div>
+        <div class="list-container" id="listContainer"></div>
+        <script src="js/lista-encadeada.js"></script>
     </main>
 </body>
 </html>
