@@ -1,0 +1,96 @@
+
+body {
+    background-image: url("../assets/background-img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+    height: 30%;
+}
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.node {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+}
+
+.node::before, .node::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background-color: #4CAF50;
+    top: 40px;
+}
+
+.node::before {
+    left: -20px;
+}
+
+.node::after {
+    right: -20px;
+}
+
+.node.left::before {
+    transform: rotate(-45deg);
+}
+
+.node.right::after {
+    transform: rotate(45deg);
+}
+
+.node.left::after, .node.right::before {
+    display: none;
+}
